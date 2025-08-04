@@ -72,11 +72,15 @@ During the development of this project for the course, key system programming co
 ## Project Structure
 ``` bash
 shell_interpreter/
-├── shell.c
 ├── main.c
-├── parser.c
-├── execute.c
+├── MAKEFILE
+├── README
+├── programs/
+│   ├── parser.c
+│   ├── executer.c
+    ├── shell.c
 ├── headers/
 │   ├── parser.h
 │   ├── executer.h
+    ├── shell.h
 ```
