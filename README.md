@@ -72,10 +72,11 @@ During the development of this project for the course, key system programming co
 ## Project Structure
 ``` bash
 shell_interpreter/
-├── main.c # Main loop and input reading
-├── shell.c # Core parsing and command execution logic
-├── shell.h # Function prototypes and definitions
-├── utils.c # Helper functions (string trimming, splitting, var expansion)
-├── Makefile # Build automation
-└── README.md # Project documentation
+├── shell.c
+├── main.c
+├── parser.c
+├── execute.c
+├── headers/
+│   ├── parser.h
+│   ├── executer.h
 ```
